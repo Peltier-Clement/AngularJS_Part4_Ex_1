@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr" ng-app>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercice 1</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+<body>
+
+   <button ng-click="count = count + 1" ng-init="count=50">+</button>
+   <button ng-click="count = count - 1" ng-init="count=50">-</button>
+   <!-- le ng-init sert à mettre le chiffre 50 au chargement de la page html -->
+  <p>Le button va incrémenter et décrémenter ce chiffre aux nombres de click, essayer {{count}}</p>
+
+</body>
+</html>
